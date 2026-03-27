@@ -63,22 +63,6 @@ export default function Index() {
                 20+ years of creative and technical direction, guided by human
                 judgment.
               </p>
-
-              {/* CTA Buttons */}
-              <div className="mt-7 flex items-center gap-4 flex-wrap">
-                <Link
-                  to="/work"
-                  className="inline-flex items-center border border-[hsl(var(--border-strong))] text-foreground text-[9px] tracking-widest-2 uppercase font-body font-medium px-5 py-2.5 hover:border-copper hover:text-copper transition-colors duration-200"
-                >
-                  View Selected Work
-                </Link>
-                <Link
-                  to="/approach"
-                  className="inline-flex items-center text-[hsl(var(--foreground-muted))] text-[9px] tracking-widest-2 uppercase font-body font-medium px-5 py-2.5 hover:text-foreground transition-colors duration-200"
-                >
-                  See How This Site Was Built
-                </Link>
-              </div>
             </div>
 
             {/* KPI Column */}
@@ -123,20 +107,6 @@ export default function Index() {
             Integrating visual effects, marketing, design, and AI workflows.
             20+ years of creative and technical direction.
           </p>
-          <div className="mt-5 flex flex-col gap-3">
-            <Link
-              to="/work"
-              className="inline-flex items-center justify-center border border-[hsl(var(--border-strong))] text-foreground text-[9px] tracking-widest-2 uppercase font-body font-medium px-5 py-3 hover:border-copper hover:text-copper transition-colors"
-            >
-              View Selected Work
-            </Link>
-            <Link
-              to="/approach"
-              className="inline-flex items-center justify-center text-[hsl(var(--foreground-muted))] text-[9px] tracking-widest-2 uppercase font-body font-medium px-5 py-3 hover:text-foreground transition-colors"
-            >
-              See How This Site Was Built
-            </Link>
-          </div>
         </div>
 
         {/* KPI Grid */}
