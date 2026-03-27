@@ -31,28 +31,18 @@ export default function OKTVBrandSystem() {
         }}
       />
 
-      {/* Hero Visual - Using OK TV colors as accent */}
+      {/* Brand Manual PDF Viewer - Hero Section */}
       <div className="px-10 xl:px-12 py-10">
-        <div className="relative overflow-hidden rounded-sm aspect-video bg-gradient-to-br from-[#44296A] via-[#2D1F4D] to-[#1a0f2e] flex items-center justify-center">
-          <div className="text-center">
-            <div
-              className="text-[120px] font-black leading-none tracking-tight mb-6"
-              style={{ color: "#FCC42A" }}
-            >
-              OK
-            </div>
-            <p
-              className="text-[18px] tracking-widest uppercase font-body font-medium"
-              style={{ color: "#F1E8F3" }}
-            >
-              Czech Television
-              <br />
-              Brand Foundation
-            </p>
-          </div>
+        <div className="bg-background rounded-sm overflow-hidden border border-[hsl(var(--border))]" style={{ height: "900px" }}>
+          <iframe
+            src="http://www.dansevera.cz/pdfs/OK-TV_BrandGuidelines_elements_RGB.pdf"
+            title="OK TV Brand Manual"
+            className="w-full h-full"
+            style={{ border: "none" }}
+          />
         </div>
         <p className="mt-3 text-[9px] tracking-widest-2 uppercase text-[hsl(var(--foreground-caption))] font-body">
-          Visual system for broadcast identity, motion design, and community engagement
+          Complete brand guidelines and visual system specification
         </p>
       </div>
 
@@ -202,40 +192,26 @@ export default function OKTVBrandSystem() {
         </div>
       </div>
 
-      {/* Brand Manual Archive */}
+      {/* Brand Manual Download */}
       <div className="px-10 xl:px-12 py-10 border-b border-[hsl(var(--border))]">
         <h2 className="font-display font-bold text-[18px] tracking-tight text-foreground uppercase">
-          Brand Manual Archive
+          Brand Manual — Complete Reference
         </h2>
         <p className="mt-2 text-[10px] tracking-widest-2 uppercase text-copper font-body font-medium">
-          Complete Visual System Documentation
+          v0.8, December 2023
         </p>
 
-        <div className="mt-8 border border-[hsl(var(--border))] rounded-sm p-8">
+        <div className="mt-8">
           <p className="text-[12px] leading-relaxed text-[hsl(var(--foreground-muted))] font-body mb-6">
             The comprehensive OK TV brand manual documents the complete visual system, including detailed logotype specifications, extended color palette applications, typography scale, image selection guidelines, and complementary design elements. This foundational document served as the blueprint for all broadcast applications, motion design, and channel implementation.
           </p>
 
-          <p className="text-[11px] tracking-widest-2 uppercase text-[hsl(var(--foreground-caption))] font-body mb-6 text-center">
-            Full Brand Manual — v0.8, December 2023
-          </p>
-
-          {/* PDF Viewer */}
-          <div className="bg-background rounded-sm overflow-hidden border border-[hsl(var(--border))]" style={{ height: "800px" }}>
-            <iframe
-              src="https://www.dansevera.cz/OK-TV_BrandGuidelines_elements_RGB.pdf"
-              title="OK TV Brand Manual"
-              className="w-full h-full"
-              style={{ border: "none" }}
-            />
-          </div>
-
-          <div className="mt-6 text-center">
+          <div className="text-center">
             <button
               className="inline-flex items-center border border-copper text-copper text-[9px] tracking-widest-2 uppercase font-body font-medium px-5 py-3 hover:bg-copper hover:text-foreground transition-colors"
               onClick={() =>
                 window.open(
-                  "https://www.dansevera.cz/OK-TV_BrandGuidelines_elements_RGB.pdf"
+                  "http://www.dansevera.cz/pdfs/OK-TV_BrandGuidelines_elements_RGB.pdf"
                 )
               }
             >
