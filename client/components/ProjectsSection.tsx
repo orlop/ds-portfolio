@@ -11,12 +11,12 @@ const featuredProjects: ProjectCardData[] = [
     commentaryStage: 1,
   },
   {
-    id: "oktv",
-    title: "OKTV Brand & Content System",
-    descriptor: "Creative Strategy & Automated Visuals",
+    id: "tlusty-campaigns",
+    title: "AI Campaigns for Brašnářství Tlustý",
+    descriptor: "Early Generative AI in Commercial Advertising",
     gradientClass:
-      "bg-gradient-to-br from-[#0a1628] via-[#0d1f3c] to-[#071020]",
-    href: "/work/oktv",
+      "bg-gradient-to-br from-[#1a1028] via-[#2d1a3d] to-[#0f0820]",
+    href: "/work/tlusty-campaigns",
     commentaryStage: 2,
   },
   {

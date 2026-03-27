@@ -196,9 +196,9 @@ export default function PortfolioWebsiteCase() {
 
       {/* Next Project Navigation */}
       <NextProjectBlock
-        title="OKTV Brand & Content System"
-        descriptor="Creative strategy & automated brand system for emerging media brand"
-        href="/work/oktv"
+        title="AI Campaigns for Brašnářství Tlustý"
+        descriptor="Repositioning a heritage brand through early generative AI advertising"
+        href="/work/tlusty-campaigns"
       />
     </CaseStudyTemplate>
   );

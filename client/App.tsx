@@ -9,7 +9,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import PlaceholderPage from "./pages/PlaceholderPage";
 import PortfolioWebsiteCase from "./pages/PortfolioWebsiteCase";
-import OKTVBrandCase from "./pages/OKTVBrandCase";
+import TlustyAdCampaigns from "./pages/TlustyAdCampaigns";
 import MagnumPhotoBooths from "./pages/MagnumPhotoBooths";
 import AIContentWorkflow from "./pages/AIContentWorkflow";
 import AITraining from "./pages/AITraining";
@@ -27,9 +27,9 @@ export default function App() {
             <Route path="/" element={<Index />} />
 
             {/* Case Study Pages */}
-            <Route path="/work/portfolio-website" element={<PortfolioWebsiteCase />} />
-            <Route path="/work/oktv" element={<OKTVBrandCase />} />
-            <Route path="/work/magnum" element={<MagnumPhotoBooths />} />
+          <Route path="/work/portfolio-website" element={<PortfolioWebsiteCase />} />
+          <Route path="/work/tlusty-campaigns" element={<TlustyAdCampaigns />} />
+          <Route path="/work/magnum" element={<MagnumPhotoBooths />} />
             <Route path="/work/ai-content-workflow" element={<AIContentWorkflow />} />
             <Route path="/work/ai-training" element={<AITraining />} />
 
