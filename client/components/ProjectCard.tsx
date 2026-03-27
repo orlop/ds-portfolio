@@ -57,6 +57,7 @@ export function ProjectCard({ card, className, commentaryMode }: ProjectCardProp
             src={card.imageUrl}
             alt={card.title}
             className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+            style={{ filter: "grayscale(100%)" }}
           />
         ) : (
           <div
