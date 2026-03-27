@@ -7,7 +7,7 @@ import { ProcessStrip } from "@/components/ProcessStrip";
 
 // Portrait image — Dan Severa
 const PORTRAIT_URL =
-  "https://cdn.builder.io/api/v1/image/assets%2F9b29ed8364584630b47810a1faa20cc6%2Fd3c01ffb4a864372856c068a23b84019?format=webp&width=800&height=1200";
+  "https://cdn.builder.io/api/v1/image/assets%2F9b29ed8364584630b47810a1faa20cc6%2Fa76241d4478f48f59b37a2c92c8eea39";
 
 export default function Index() {
   const [mode, setMode] = useState<"portfolio" | "commentary">("portfolio");
