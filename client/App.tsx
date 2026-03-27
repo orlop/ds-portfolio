@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import PlaceholderPage from "./pages/PlaceholderPage";
-import PortfolioWebsiteCase from "./pages/PortfolioWebsiteCase";
+import ResearchVFXPipeline from "./pages/ResearchVFXPipeline";
 import TlustyAdCampaigns from "./pages/TlustyAdCampaigns";
 import MagnumPhotoBooths from "./pages/MagnumPhotoBooths";
 import AIContentWorkflow from "./pages/AIContentWorkflow";
@@ -27,7 +27,7 @@ export default function App() {
             <Route path="/" element={<Index />} />
 
             {/* Case Study Pages */}
-          <Route path="/work/portfolio-website" element={<PortfolioWebsiteCase />} />
+          <Route path="/work/vfx-pipeline" element={<ResearchVFXPipeline />} />
           <Route path="/work/tlusty-campaigns" element={<TlustyAdCampaigns />} />
           <Route path="/work/magnum" element={<MagnumPhotoBooths />} />
             <Route path="/work/ai-content-workflow" element={<AIContentWorkflow />} />

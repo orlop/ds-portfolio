@@ -2,12 +2,12 @@ import { ProjectCard, type ProjectCardData } from "./ProjectCard";
 
 const featuredProjects: ProjectCardData[] = [
   {
-    id: "portfolio-website",
-    title: "This Portfolio Website",
-    descriptor: "AI-Assisted Product Content Workflow & Design System",
+    id: "vfx-pipeline",
+    title: "Research & Applied AI VFX Pipeline",
+    descriptor: "Stable generative AI workflows for theatrical film postproduction",
     imageUrl:
       "https://api.builder.io/api/v1/image/assets/TEMP/105da3ce78db249aa62b340b78e33b52a37c31ca?width=800",
-    href: "/work/portfolio-website",
+    href: "/work/vfx-pipeline",
     commentaryStage: 1,
   },
   {

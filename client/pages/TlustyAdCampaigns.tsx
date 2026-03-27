@@ -346,9 +346,9 @@ export default function TlustyAdCampaigns() {
 
       {/* Next Project Navigation */}
       <NextProjectBlock
-        title="Magnum Photo Booths"
-        descriptor="Creative technology installation & immersive experience design"
-        href="/work/magnum"
+        title="Research & Applied AI VFX Pipeline"
+        descriptor="Turning volatile generative models into production-ready VFX workflows"
+        href="/work/vfx-pipeline"
       />
     </CaseStudyTemplate>
   );
