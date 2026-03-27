@@ -2,7 +2,6 @@ import { useState } from "react";
 import { CaseStudyTemplate } from "@/components/CaseStudyTemplate";
 import {
   CaseStudyTitleBlock,
-  HeroImageBlock,
   OverviewBlock,
   TextSectionBlock,
   SplitBlock,
@@ -33,13 +32,6 @@ export default function ResearchVFXPipeline() {
           year: "2025",
           type: "Theatrical Film Postproduction",
         }}
-      />
-
-      {/* Hero Image */}
-      <HeroImageBlock
-        imageUrl="https://cdn.builder.io/api/v1/image/assets/TEMP/105da3ce78db249aa62b340b78e33b52a37c31ca?width=1600&height=900"
-        alt="Nečekané léto film stills with AI-assisted VFX"
-        caption="46 shots delivered for theatrical release: AI-assisted performance correction, character generation, and environmental work seamlessly integrated into the final film"
       />
 
       {/* Overview Block */}
