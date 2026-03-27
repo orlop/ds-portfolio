@@ -9,6 +9,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import PlaceholderPage from "./pages/PlaceholderPage";
+import PortfolioWebsiteCase from "./pages/PortfolioWebsiteCase";
+import OKTVBrandCase from "./pages/OKTVBrandCase";
+import MagnumPhotoBooths from "./pages/MagnumPhotoBooths";
+import AIContentWorkflow from "./pages/AIContentWorkflow";
+import AITraining from "./pages/AITraining";
 
 const queryClient = new QueryClient();
 
@@ -21,9 +26,15 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
 
-          {/* Portfolio pages */}
+          {/* Case Study Pages */}
+          <Route path="/work/portfolio-website" element={<PortfolioWebsiteCase />} />
+          <Route path="/work/oktv" element={<OKTVBrandCase />} />
+          <Route path="/work/magnum" element={<MagnumPhotoBooths />} />
+          <Route path="/work/ai-content-workflow" element={<AIContentWorkflow />} />
+          <Route path="/work/ai-training" element={<AITraining />} />
+
+          {/* Placeholder pages for future development */}
           <Route path="/work" element={<PlaceholderPage title="Selected Work" />} />
-          <Route path="/work/:slug" element={<PlaceholderPage title="Case Study" />} />
           <Route path="/about" element={<PlaceholderPage title="About" />} />
           <Route path="/approach" element={<PlaceholderPage title="Approach" />} />
           <Route path="/contact" element={<PlaceholderPage title="Contact" />} />

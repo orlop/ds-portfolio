@@ -28,6 +28,24 @@ const featuredProjects: ProjectCardData[] = [
     href: "/work/magnum",
     commentaryStage: 3,
   },
+  {
+    id: "ai-content-workflow",
+    title: "AI-Assisted Product Content",
+    descriptor: "Human-directed, AI-powered content generation system",
+    gradientClass:
+      "bg-gradient-to-br from-[#1a0f08] via-[#2d1a0a] to-[#0f0805]",
+    href: "/work/ai-content-workflow",
+    commentaryStage: 1,
+  },
+  {
+    id: "ai-training",
+    title: "Generative AI Training",
+    descriptor: "Teaching creative teams to leverage AI effectively",
+    gradientClass:
+      "bg-gradient-to-br from-[#0a1010] via-[#0d1818] to-[#050808]",
+    href: "/work/ai-training",
+    commentaryStage: 2,
+  },
 ];
 
 interface ProjectsSectionProps {
@@ -35,13 +53,16 @@ interface ProjectsSectionProps {
 }
 
 export function ProjectsSection({ commentaryMode }: ProjectsSectionProps) {
+  // Display first 3 projects on homepage, others linked from case studies
+  const displayedProjects = featuredProjects.slice(0, 3);
+
   return (
     <section
       className="px-10 pb-6"
       data-section="featured-projects"
     >
       <div className="grid grid-cols-3 gap-5">
-        {featuredProjects.map((project) => (
+        {displayedProjects.map((project) => (
           <ProjectCard
             key={project.id}
             card={project}
