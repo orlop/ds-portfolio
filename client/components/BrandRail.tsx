@@ -8,8 +8,6 @@ interface NavItem {
 
 const navItems: NavItem[] = [
   { label: "WORK", href: "/" },
-  { label: "ABOUT", href: "/about" },
-  { label: "APPROACH", href: "/approach" },
   { label: "CONTACT", href: "/contact" },
 ];
 
@@ -63,8 +61,8 @@ export function BrandRail({ mode = "portfolio", onModeChange }: BrandRailProps) 
       {/* Spacer */}
       <div className="flex-1" />
 
-      {/* Mode Toggle */}
-      <ModeToggle mode={mode} onModeChange={onModeChange} />
+      {/* Mode Toggle - Hidden */}
+      {/* <ModeToggle mode={mode} onModeChange={onModeChange} /> */}
     </aside>
   );
 }
