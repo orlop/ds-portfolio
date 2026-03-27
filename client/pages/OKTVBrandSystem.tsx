@@ -216,10 +216,21 @@ export default function OKTVBrandSystem() {
             The comprehensive OK TV brand manual documents the complete visual system, including detailed logotype specifications, extended color palette applications, typography scale, image selection guidelines, and complementary design elements. This foundational document served as the blueprint for all broadcast applications, motion design, and channel implementation.
           </p>
 
-          <div className="bg-surface rounded-sm p-6 text-center">
-            <p className="text-[11px] tracking-widest-2 uppercase text-[hsl(var(--foreground-caption))] font-body mb-4">
-              Full Brand Manual — v0.8, December 2023
-            </p>
+          <p className="text-[11px] tracking-widest-2 uppercase text-[hsl(var(--foreground-caption))] font-body mb-6 text-center">
+            Full Brand Manual — v0.8, December 2023
+          </p>
+
+          {/* PDF Viewer */}
+          <div className="bg-background rounded-sm overflow-hidden border border-[hsl(var(--border))]" style={{ height: "800px" }}>
+            <iframe
+              src="https://www.dansevera.cz/OK-TV_BrandGuidelines_elements_RGB.pdf"
+              title="OK TV Brand Manual"
+              className="w-full h-full"
+              style={{ border: "none" }}
+            />
+          </div>
+
+          <div className="mt-6 text-center">
             <button
               className="inline-flex items-center border border-copper text-copper text-[9px] tracking-widest-2 uppercase font-body font-medium px-5 py-3 hover:bg-copper hover:text-foreground transition-colors"
               onClick={() =>
@@ -228,7 +239,7 @@ export default function OKTVBrandSystem() {
                 )
               }
             >
-              Download Brand Manual (PDF)
+              Download Full Manual (PDF)
             </button>
           </div>
         </div>
