@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import { Download } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface NavItem {
@@ -56,6 +57,20 @@ export function BrandRail({ mode = "portfolio", onModeChange }: BrandRailProps) 
             </Link>
           );
         })}
+
+        {/* Download Resume Button */}
+        <button
+          onClick={() =>
+            window.open(
+              "http://www.dansevera.cz/pdfs/DAN-SEVERA-grey_AI-Engineer.pdf"
+            )
+          }
+          className="flex items-center gap-2 text-[10px] tracking-widest-2 font-body font-medium uppercase transition-colors duration-200 text-[hsl(var(--foreground-muted))] hover:text-foreground group"
+          title="Download Resume"
+        >
+          <Download size={12} className="group-hover:translate-y-0.5 transition-transform" />
+          <span>RESUME</span>
+        </button>
       </nav>
 
       {/* Spacer */}
