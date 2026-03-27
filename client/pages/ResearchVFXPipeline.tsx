@@ -105,7 +105,7 @@ export default function ResearchVFXPipeline() {
           <div>
             <div className="relative overflow-hidden rounded-sm aspect-video bg-surface-elevated">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F9b29ed8364584630b47810a1faa20cc6%2F2f8c9d7e5a3b1c4f6e8d0a2b4c6f8e0a?format=webp&width=800&height=450"
+                src="https://www.dansevera.cz/video/acting_change_before.gif"
                 alt="Original actress performance"
                 className="w-full h-full object-cover"
               />
@@ -117,7 +117,7 @@ export default function ResearchVFXPipeline() {
           <div>
             <div className="relative overflow-hidden rounded-sm aspect-video bg-surface-elevated">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F9b29ed8364584630b47810a1faa20cc6%2F3d9c0e1f2a4b5c7d8e9f0a1b2c3d4e5f?format=webp&width=800&height=450"
+                src="https://www.dansevera.cz/video/acting_change_after.gif"
                 alt="AI-corrected actress performance"
                 className="w-full h-full object-cover"
               />
@@ -161,7 +161,7 @@ export default function ResearchVFXPipeline() {
           <div>
             <div className="relative overflow-hidden rounded-sm aspect-video bg-surface-elevated">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F9b29ed8364584630b47810a1faa20cc6%2F4e0f1a2b3c4d5e6f7a8b9c0d1e2f3a4b?format=webp&width=800&height=450"
+                src="https://www.dansevera.cz/video/ferret_before.gif"
                 alt="Original shot with stuffed ferret stand-in"
                 className="w-full h-full object-cover"
               />
@@ -173,7 +173,7 @@ export default function ResearchVFXPipeline() {
           <div>
             <div className="relative overflow-hidden rounded-sm aspect-video bg-surface-elevated">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F9b29ed8364584630b47810a1faa20cc6%2F5f1c2d3e4a5b6c7d8e9f0a1b2c3d4e5f?format=webp&width=800&height=450"
+                src="https://www.dansevera.cz/video/ferret_after.gif"
                 alt="AI-generated live ferret integrated"
                 className="w-full h-full object-cover"
               />
@@ -225,43 +225,87 @@ export default function ResearchVFXPipeline() {
           </p>
         </div>
 
-        {/* Gallery with GIFs */}
-        <div className="mt-8 grid grid-cols-3 gap-5">
-          <div>
-            <div className="relative overflow-hidden rounded-sm aspect-video bg-surface-elevated">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F9b29ed8364584630b47810a1faa20cc6%2F6a2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e?format=webp&width=600&height=450"
-                alt="Parachute shot take 1"
-                className="w-full h-full object-cover"
-              />
+        {/* Gallery with GIFs - Before/After pairs */}
+        <div className="mt-8 space-y-6">
+          <div className="grid grid-cols-2 gap-6">
+            <div>
+              <div className="relative overflow-hidden rounded-sm aspect-video bg-surface-elevated">
+                <img
+                  src="https://www.dansevera.cz/video/parachute_01_before.gif"
+                  alt="Parachute shot 1 before"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="mt-2 text-[9px] tracking-widest-2 uppercase text-[hsl(var(--foreground-caption))] font-body">
+                Before: Original plate
+              </p>
             </div>
-            <p className="mt-2 text-[9px] tracking-widest-2 uppercase text-[hsl(var(--foreground-caption))] font-body">
-              Parachute shot variation 1
-            </p>
+            <div>
+              <div className="relative overflow-hidden rounded-sm aspect-video bg-surface-elevated">
+                <img
+                  src="https://www.dansevera.cz/video/parachute_01_after.gif"
+                  alt="Parachute shot 1 after"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="mt-2 text-[9px] tracking-widest-2 uppercase text-[hsl(var(--foreground-caption))] font-body">
+                After: Final composite
+              </p>
+            </div>
           </div>
-          <div>
-            <div className="relative overflow-hidden rounded-sm aspect-video bg-surface-elevated">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F9b29ed8364584630b47810a1faa20cc6%2F7b3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f?format=webp&width=600&height=450"
-                alt="Parachute shot take 2"
-                className="w-full h-full object-cover"
-              />
+
+          <div className="grid grid-cols-2 gap-6">
+            <div>
+              <div className="relative overflow-hidden rounded-sm aspect-video bg-surface-elevated">
+                <img
+                  src="https://www.dansevera.cz/video/parachute_02_before.gif"
+                  alt="Parachute shot 2 before"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="mt-2 text-[9px] tracking-widest-2 uppercase text-[hsl(var(--foreground-caption))] font-body">
+                Before: Original plate
+              </p>
             </div>
-            <p className="mt-2 text-[9px] tracking-widest-2 uppercase text-[hsl(var(--foreground-caption))] font-body">
-              Parachute shot variation 2
-            </p>
+            <div>
+              <div className="relative overflow-hidden rounded-sm aspect-video bg-surface-elevated">
+                <img
+                  src="https://www.dansevera.cz/video/parachute_02_after.gif"
+                  alt="Parachute shot 2 after"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="mt-2 text-[9px] tracking-widest-2 uppercase text-[hsl(var(--foreground-caption))] font-body">
+                After: Final composite
+              </p>
+            </div>
           </div>
-          <div>
-            <div className="relative overflow-hidden rounded-sm aspect-video bg-surface-elevated">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F9b29ed8364584630b47810a1faa20cc6%2F8c4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a?format=webp&width=600&height=450"
-                alt="Parachute shot take 3"
-                className="w-full h-full object-cover"
-              />
+
+          <div className="grid grid-cols-2 gap-6">
+            <div>
+              <div className="relative overflow-hidden rounded-sm aspect-video bg-surface-elevated">
+                <img
+                  src="https://www.dansevera.cz/video/parachute_03_before.gif"
+                  alt="Parachute shot 3 before"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="mt-2 text-[9px] tracking-widest-2 uppercase text-[hsl(var(--foreground-caption))] font-body">
+                Before: Original plate
+              </p>
             </div>
-            <p className="mt-2 text-[9px] tracking-widest-2 uppercase text-[hsl(var(--foreground-caption))] font-body">
-              Parachute shot variation 3
-            </p>
+            <div>
+              <div className="relative overflow-hidden rounded-sm aspect-video bg-surface-elevated">
+                <img
+                  src="https://www.dansevera.cz/video/parachute_03_after.gif"
+                  alt="Parachute shot 3 after"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="mt-2 text-[9px] tracking-widest-2 uppercase text-[hsl(var(--foreground-caption))] font-body">
+                After: Final composite
+              </p>
+            </div>
           </div>
         </div>
 
