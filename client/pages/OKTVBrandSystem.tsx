@@ -35,7 +35,7 @@ export default function OKTVBrandSystem() {
       <div className="px-10 xl:px-12 py-10">
         <div className="bg-background rounded-sm overflow-hidden border border-[hsl(var(--border))]" style={{ height: "900px" }}>
           <iframe
-            src="http://www.dansevera.cz/pdfs/OK-TV_BrandGuidelines_elements_RGB.pdf"
+            src="https://docs.google.com/gview?url=http://www.dansevera.cz/pdfs/OK-TV_BrandGuidelines_elements_RGB.pdf&embedded=true"
             title="OK TV Brand Manual"
             className="w-full h-full"
             style={{ border: "none" }}
