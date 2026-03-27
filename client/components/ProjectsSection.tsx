@@ -6,7 +6,7 @@ const featuredProjects: ProjectCardData[] = [
     title: "Research & Applied AI VFX Pipeline",
     descriptor: "Stable generative AI workflows for theatrical film postproduction",
     imageUrl:
-      "https://api.builder.io/api/v1/image/assets/TEMP/105da3ce78db249aa62b340b78e33b52a37c31ca?width=800",
+      "https://cdn.builder.io/api/v1/image/assets%2F9b29ed8364584630b47810a1faa20cc6%2Ffb3b24a9ede646a8a233cc18ebad2175?format=webp&width=800&height=1200",
     href: "/work/vfx-pipeline",
     commentaryStage: 1,
   },
@@ -14,8 +14,8 @@ const featuredProjects: ProjectCardData[] = [
     id: "tlusty-campaigns",
     title: "AI Campaigns for Brašnářství Tlustý",
     descriptor: "Early Generative AI in Commercial Advertising",
-    gradientClass:
-      "bg-gradient-to-br from-[#1a1028] via-[#2d1a3d] to-[#0f0820]",
+    imageUrl:
+      "https://cdn.builder.io/api/v1/image/assets%2F9b29ed8364584630b47810a1faa20cc6%2F097477050c71413492080f93116b9036?format=webp&width=800&height=1200",
     href: "/work/tlusty-campaigns",
     commentaryStage: 2,
   },
@@ -23,8 +23,8 @@ const featuredProjects: ProjectCardData[] = [
     id: "oktv-brand-system",
     title: "OK TV — Brand System & Motion Design",
     descriptor: "Czech broadcast brand identity and visual system",
-    gradientClass:
-      "bg-gradient-to-br from-[#44296A] via-[#2D1F4D] to-[#1a0f2e]",
+    imageUrl:
+      "https://cdn.builder.io/api/v1/image/assets%2F9b29ed8364584630b47810a1faa20cc6%2F01cf478ad74642e2a9de5a807f297cf6?format=webp&width=800&height=1200",
     href: "/work/oktv-brand-system",
     commentaryStage: 3,
   },
