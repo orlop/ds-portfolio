@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import PlaceholderPage from "./pages/PlaceholderPage";
+import Contact from "./pages/Contact";
 import ResearchVFXPipeline from "./pages/ResearchVFXPipeline";
 import TlustyAdCampaigns from "./pages/TlustyAdCampaigns";
 import OKTVBrandSystem from "./pages/OKTVBrandSystem";
@@ -37,7 +38,7 @@ export default function App() {
             <Route path="/work" element={<PlaceholderPage title="Selected Work" />} />
             <Route path="/about" element={<PlaceholderPage title="About" />} />
             <Route path="/approach" element={<PlaceholderPage title="Approach" />} />
-            <Route path="/contact" element={<PlaceholderPage title="Contact" />} />
+            <Route path="/contact" element={<Contact />} />
 
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />
