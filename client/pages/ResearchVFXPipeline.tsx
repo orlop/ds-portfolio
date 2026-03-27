@@ -453,9 +453,9 @@ export default function ResearchVFXPipeline() {
 
       {/* Next Project Navigation */}
       <NextProjectBlock
-        title="Magnum Photo Booths"
-        descriptor="Creative technology installation & immersive experience design"
-        href="/work/magnum"
+        title="OK TV — Brand System & Motion Design"
+        descriptor="Czech broadcast brand identity and visual system"
+        href="/work/oktv-brand-system"
       />
     </CaseStudyTemplate>
   );

@@ -20,12 +20,12 @@ const featuredProjects: ProjectCardData[] = [
     commentaryStage: 2,
   },
   {
-    id: "magnum-photo-booths",
-    title: "Magnum Photo Booths",
-    descriptor: "Creative Tech Experience & Implementation",
+    id: "oktv-brand-system",
+    title: "OK TV — Brand System & Motion Design",
+    descriptor: "Czech broadcast brand identity and visual system",
     gradientClass:
-      "bg-gradient-to-br from-[#1a1208] via-[#241a0a] to-[#0f0e0d]",
-    href: "/work/magnum",
+      "bg-gradient-to-br from-[#44296A] via-[#2D1F4D] to-[#1a0f2e]",
+    href: "/work/oktv-brand-system",
     commentaryStage: 3,
   },
   {

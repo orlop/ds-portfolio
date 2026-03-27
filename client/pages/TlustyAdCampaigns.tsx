@@ -346,9 +346,9 @@ export default function TlustyAdCampaigns() {
 
       {/* Next Project Navigation */}
       <NextProjectBlock
-        title="Research & Applied AI VFX Pipeline"
-        descriptor="Turning volatile generative models into production-ready VFX workflows"
-        href="/work/vfx-pipeline"
+        title="OK TV — Brand System & Motion Design"
+        descriptor="Czech broadcast brand identity and visual system"
+        href="/work/oktv-brand-system"
       />
     </CaseStudyTemplate>
   );

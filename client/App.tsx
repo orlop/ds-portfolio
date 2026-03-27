@@ -10,7 +10,7 @@ import NotFound from "./pages/NotFound";
 import PlaceholderPage from "./pages/PlaceholderPage";
 import ResearchVFXPipeline from "./pages/ResearchVFXPipeline";
 import TlustyAdCampaigns from "./pages/TlustyAdCampaigns";
-import MagnumPhotoBooths from "./pages/MagnumPhotoBooths";
+import OKTVBrandSystem from "./pages/OKTVBrandSystem";
 import AIContentWorkflow from "./pages/AIContentWorkflow";
 import AITraining from "./pages/AITraining";
 
@@ -29,7 +29,7 @@ export default function App() {
             {/* Case Study Pages */}
           <Route path="/work/vfx-pipeline" element={<ResearchVFXPipeline />} />
           <Route path="/work/tlusty-campaigns" element={<TlustyAdCampaigns />} />
-          <Route path="/work/magnum" element={<MagnumPhotoBooths />} />
+          <Route path="/work/oktv-brand-system" element={<OKTVBrandSystem />} />
             <Route path="/work/ai-content-workflow" element={<AIContentWorkflow />} />
             <Route path="/work/ai-training" element={<AITraining />} />
 
